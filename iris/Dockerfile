@@ -1,4 +1,4 @@
-ARG IMAGE=store/intersystems/iris-aa-community:2020.3.0AA.331.0
+ARG IMAGE=store/intersystems/iris-ml-community:2020.3.0.304.0
 FROM ${IMAGE}
 
 USER root
