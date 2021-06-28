@@ -1,31 +1,3 @@
-<html>
-<head>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
-<link rel="stylesheet" type="text/css" href="main.css">
-<script src="https://cdn.rawgit.com/showdownjs/showdown/1.9.1/dist/showdown.min.js">
-</script>
-<script language="javascript">
-function run() {
-	source = document.getElementById('markdown');
-    target = document.getElementById('result');
-    converter = new showdown.Converter();
-    html = converter.makeHtml(source.innerHTML);
-    target.innerHTML = html;    
-}
-window.onload = run;
-</script>
-<title>IntegratedML : ML Made Easy - Advanced</title>
-</head>
-<body>
-<div id="document">
-<div class="header" id="myHeader">
-	<div class="wide">
-  <h1><span style="color:#27318A;text-shadow: 1px 1px #ddd;">IntegratedML</span> : ML Made Easy - Advanced</h1></div>
-  <div class="narrow"><img class="right" src="intersystems.svg"/></div>
-</div> 
-<div id="markdown" style="display:none;">
-
-
 
 
 ## Introduction
@@ -465,11 +437,3 @@ To learn more about IntegratedML, visit the following learning resources:
 
 * [Learn IntegratedML in InterSystems IRIS - resource guide](https://learning.intersystems.com/course/view.php?id=1346&ssoPass=1)
 * [Using IntegratedML - Documentation](https://docs.intersystems.com/iris20202/csp/docbook/Doc.View.cls?KEY=GIML)
-
-
-</div>
-<div class="markdown-body" id="result" style="margin-left:25px;">
-</div>
-</div>
-</body>
-</html>

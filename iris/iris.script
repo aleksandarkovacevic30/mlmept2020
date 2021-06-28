@@ -22,4 +22,8 @@ do $system.OBJ.Load("/data/otherclasses.xml","cf")
 w ##class(Util.Loader).Load("/data/breast-cancer.csv","User.BreastCancer")
 w ##class(Util.Loader).Load("/data/appointment-noshows.csv","User.appointments")
 
+do $system.OBJ.Load("/data/bankcust.cls","cf")
+do $system.OBJ.Load("/data/bankcust.gof")
+
+
 halt
