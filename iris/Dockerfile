@@ -1,4 +1,5 @@
 ARG IMAGE=store/intersystems/iris-ml-community:2021.1.0.215.0
+ARG intersystemsdc/iris-ml-community
 FROM ${IMAGE}
 
 USER root
